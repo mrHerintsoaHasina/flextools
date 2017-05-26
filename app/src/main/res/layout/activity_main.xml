@@ -12,42 +12,69 @@
     <com.hopenlib.cflextools.FlexRadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:checkedButton="@+id/bhk_1_5"
         app:alignContent="space_around"
         app:alignItems="flex_start"
+        app:checkedButton="@+id/bhk_1_5"
         app:flexWrap="wrap">
 
-        <RadioButton
-            android:layout_width="wrap_content"
+        <com.hopenlib.cflextools.FlexRadioGroup xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="1 BHK" />
+            app:alignContent="space_around"
+            app:alignItems="flex_start"
+            app:checkedButton="@+id/rb_2"
+            app:flexWrap="wrap">
 
-        <RadioButton
-            android:id="@+id/bhk_1_5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:checked="true"
-            android:text="1.5 BHK" />
+            <RadioButton
+                android:id="@+id/rb_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RB 1" />
 
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="2 BHK" />
+            <RadioButton
+                android:id="@+id/rb_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="RB 2" />
 
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="2.5 BHK" />
+            <RadioButton
+                android:id="@+id/rb_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RB 3" />
 
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="2 BHK" />
+            <RadioButton
+                android:id="@+id/rb_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RB 4" />
 
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="2.5 BHK" />
+            <RadioButton
+                android:id="@+id/rb_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RB 5" />
+
+            <RadioButton
+                android:id="@+id/rb_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RB 6" />
+
+            <RadioButton
+                android:id="@+id/rb_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RB 7" />
+
+            <RadioButton
+                android:id="@+id/rb_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RB 8" />
+
+        </com.hopenlib.cflextools.FlexRadioGroup>
 
     </com.hopenlib.cflextools.FlexRadioGroup>
 </RelativeLayout>

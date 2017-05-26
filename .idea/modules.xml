@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FlexTools.iml" filepath="$PROJECT_DIR$/FlexTools.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cflextools/cflextools.iml" filepath="$PROJECT_DIR$/cflextools/cflextools.iml" />
     </modules>
   </component>
 </project>

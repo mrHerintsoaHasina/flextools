@@ -56,7 +56,7 @@ public class FlexRadioGroup extends FlexboxLayout {
      * {@inheritDoc}
      */
     @Override
-    public void setOnHierarchyChangeListener(OnHierarchyChangeListener listener) {
+    public void setOnHierarchyChangeListener(ViewGroup.OnHierarchyChangeListener listener) {
         // the user listener is delegated to our pass-through listener
         mPassThroughListener.mOnHierarchyChangeListener = listener;
     }

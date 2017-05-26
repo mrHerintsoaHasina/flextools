@@ -1,4 +1,4 @@
-package com.hopenlib.cflextools;
+package com.hopenlib.sample;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

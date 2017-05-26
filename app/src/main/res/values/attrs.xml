@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FlexRadioGroup">
+        <!-- The id of the child radio button that should be checked by default
+             within this radio group. -->
+        <attr name="checkedButton" format="integer" />
+    </declare-styleable>
+</resources>

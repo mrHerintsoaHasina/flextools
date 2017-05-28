@@ -2,21 +2,7 @@
 An Android Library which uses the FlexboxLayout https://github.com/google/flexbox-layout
 
 ## Installation
-Add to your `build.gradle` project :
-````
-...
-allprojects {
-    repositories {
-        jcenter()
-        maven {
-            url 'https://dl.bintray.com/mrhas/flextools'
-        }
-    }
-}
-...
-````
-
-And finally in the app `build.gradle` :
+Add to your app `build.gradle` :
 ````
 dependencies {
     compile 'com.hopenlib.library:cflextools:1.0.0'

@@ -1,4 +1,4 @@
-package com.hopenlib.cflextools;
+package com.hopenlib.flextools;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

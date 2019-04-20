@@ -1,21 +1,43 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
 buildscript {
+    // Android gradle
+    ext.android_gradle_version = '3.3.1'
+
+    // Android
+    ext.compile_sdk_version = 28
+    ext.min_sdk_version = 17
+    ext.version_code = 1
+    ext.version_name = '1.0'
+
+    // Dependencies
+    ext.android_annotation_version = '1.1.0-alpha01'
+    ext.appcompat_version = '1.1.0-alpha04'
+    ext.flexbox_version = '1.1.0'
+    ext.legacy_support_v4_version = '1.0.0'
+
     repositories {
         jcenter()
+        google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.1.2'
-        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.4'
-        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.3'
+        classpath "com.android.tools.build:gradle:$android_gradle_version"
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
+
+}
+
+plugins {
+    id "com.jfrog.bintray" version "1.8.4"
 }
 
 allprojects {
     repositories {
         jcenter()
+        google()
     }
+    apply plugin: 'maven'
+    apply plugin: 'maven-publish'
 }

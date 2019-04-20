@@ -1,1 +1,1 @@
-include ':app', ':cflextools'
+include ':app', ':library'

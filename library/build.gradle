@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: "com.github.dcendents.android-maven"
 
 ext {
     bintrayRepo = 'flextools'
@@ -14,6 +15,7 @@ ext {
     gitUrl = 'https://github.com/mrHerintsoaHasina/flextools.git'
 
     libraryVersion = '1.0.0'
+    allLabels = ['android', 'android-library', 'android-ui']
 
     developerId = 'mrhas'
     developerName = 'Hasina R.'
@@ -22,10 +24,6 @@ ext {
     licenseName = 'The Apache Software License, Version 2.0'
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
     allLicenses = ["Apache-2.0"]
-}
-
-bintray {
-
 }
 
 android {
@@ -50,5 +48,8 @@ dependencies {
     implementation "com.google.android:flexbox:$flexbox_version"
     implementation "androidx.annotation:annotation:$android_annotation_version"
 }
+
+apply from: "../bintrayv1.gradle"
+apply from: "../maven.gradle"
 
 

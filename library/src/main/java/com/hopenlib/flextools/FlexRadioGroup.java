@@ -141,7 +141,7 @@ public class FlexRadioGroup extends FlexboxLayout {
      * Upon empty selection, the returned value is -1.</p>
      *
      * @return the unique id of the selected radio button in this group
-     * @attr ref android.R.styleable#RadioGroup_checkedButton
+     * @attr ref R.styleable#FlexRadioGroup_checkedButton
      * @see #check(int)
      * @see #clearCheck()
      */

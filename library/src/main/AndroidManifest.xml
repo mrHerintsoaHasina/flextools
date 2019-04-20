@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.hopenlib.cflextools">
+    package="com.hopenlib.flextools">
 
     <application></application>
 

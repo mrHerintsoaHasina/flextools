@@ -2,11 +2,11 @@ apply plugin: 'com.android.library'
 
 ext {
     bintrayRepo = 'flextools'
-    bintrayName = 'cflextools'
+    bintrayName = 'flextools'
 
     publishedGroupId = 'com.hopenlib.library'
     libraryName = 'FlexTools'
-    artifact = 'cflextools'
+    artifact = 'flextools'
 
     libraryDescription = 'Custom view created from FlexBoxLayout are found here'
 
@@ -16,23 +16,26 @@ ext {
     libraryVersion = '1.0.0'
 
     developerId = 'mrhas'
-    developerName = 'Hasina Razafinandrianilana'
-    developerEmail = 'mr.herintsoa.hasina@gmail.com'
+    developerName = 'Hasina R.'
+    developerEmail = 'hasina.anddev@gmail.com'
 
     licenseName = 'The Apache Software License, Version 2.0'
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
     allLicenses = ["Apache-2.0"]
 }
 
+bintray {
+
+}
+
 android {
-    compileSdkVersion 23
-    buildToolsVersion "23.0.2"
+    compileSdkVersion compile_sdk_version
 
     defaultConfig {
-        minSdkVersion 17
-        targetSdkVersion 23
-        versionCode 1
-        versionName "1.0"
+        minSdkVersion min_sdk_version
+        targetSdkVersion compile_sdk_version
+        versionCode version_code
+        versionName version_name
     }
     buildTypes {
         release {
@@ -43,9 +46,9 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.google.android:flexbox:0.2.6'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "com.google.android:flexbox:$flexbox_version"
+    implementation "androidx.annotation:annotation:$android_annotation_version"
 }
 
-apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
-apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
+

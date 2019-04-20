@@ -1,8 +1,8 @@
-package com.hopenlib.cflextools;
+package com.hopenlib.flextools;
 
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.support.annotation.IdRes;
+
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,8 +11,10 @@ import android.widget.RadioButton;
 
 import com.google.android.flexbox.FlexboxLayout;
 
+import androidx.annotation.IdRes;
+
 /**
- * Created by pilomac-2 on 24/05/17.
+ * Created by mrhas on 24/05/17.
  */
 public class FlexRadioGroup extends FlexboxLayout {
 

@@ -39,7 +39,7 @@ public class FlexRadioGroup extends FlexboxLayout {
         // XML layout file
         TypedArray attributes = context.obtainStyledAttributes(attrs, R.styleable.FlexboxLayout);
 
-        int value = attributes.getResourceId(R.styleable.FlexRadioGroup_checkedButton, View.NO_ID);
+        int value = attributes.getResourceId(R.styleable.FlexRadioGroup_flexCheckedButton, View.NO_ID);
         if (value != View.NO_ID) {
             mCheckedId = value;
         }
@@ -141,7 +141,7 @@ public class FlexRadioGroup extends FlexboxLayout {
      * Upon empty selection, the returned value is -1.</p>
      *
      * @return the unique id of the selected radio button in this group
-     * @attr ref R.styleable#FlexRadioGroup_checkedButton
+     * @attr ref R.styleable#FlexRadioGroup_flexCheckedButton
      * @see #check(int)
      * @see #clearCheck()
      */

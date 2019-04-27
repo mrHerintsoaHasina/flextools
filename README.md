@@ -81,3 +81,21 @@ Use the custom attribute `checkedButton` to specify the RadioButton's id which i
 You can see more details about the FlexboxLayout UI params (alignContent, alignItems, flexWrap, ...) to customize the appearence of the FlexRadioGroup and his content.
 
 ![FlexRadioGroup in action](/assets/screenshot.png)
+
+## License
+Apache 2.0. See the [LICENSE](https://github.com/mrHerintsoaHasina/flextools/blob/master/LICENSE.md) file for details.
+```
+   Copyright 2019 Hasina R.
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.`
+```

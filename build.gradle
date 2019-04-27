@@ -7,8 +7,8 @@ buildscript {
     // Android
     ext.compile_sdk_version = 28
     ext.min_sdk_version = 17
-    ext.version_code = 1
-    ext.version_name = '1.0'
+    ext.version_code = 2
+    ext.version_name = '1.0.1'
 
     // Dependencies
     ext.android_annotation_version = '1.1.0-alpha01'

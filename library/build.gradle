@@ -14,7 +14,7 @@ ext {
     siteUrl = 'https://github.com/mrHerintsoaHasina/flextools'
     gitUrl = 'https://github.com/mrHerintsoaHasina/flextools.git'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.0.1'
     allLabels = ['android', 'android-library', 'android-ui']
 
     developerId = 'mrhas'

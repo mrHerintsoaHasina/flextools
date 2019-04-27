@@ -24,5 +24,4 @@ dependencies {
     implementation "androidx.legacy:legacy-support-v4:$legacy_support_v4_version"
     implementation "androidx.appcompat:appcompat:$appcompat_version"
     implementation project(':library')
-
 }

@@ -5,7 +5,7 @@ An Android Library which uses the FlexboxLayout https://github.com/google/flexbo
 Add to your app `build.gradle` :
 ````
 dependencies {
-    implementation 'com.hopenlib.library:flextools:1.0.0'
+    implementation 'com.hopenlib.library:flextools:1.0.1'
 }
 ````
 
@@ -19,7 +19,7 @@ The official RadioGroup widget doesn't support many RadioButtons in the same dir
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:checkedButton="@+id/rb_2"
+        app:flexCheckedButton="@+id/rb_2"
         app:alignContent="space_around"
         app:alignItems="flex_start"
         app:flexWrap="wrap">
@@ -76,7 +76,7 @@ The official RadioGroup widget doesn't support many RadioButtons in the same dir
     </com.hopenlib.flextools.FlexRadioGroup>
 ````
 
-Use the custom attribute `checkedButton` to specify the RadioButton's id which is checked by default. Don't forget to set the `android:checked` attribute as `true`for that RadioButton.
+Use the custom attribute `flexCheckedButton` to specify the RadioButton's id which is checked by default. Don't forget to set the `android:checked` attribute as `true`for that RadioButton.
 
 You can see more details about the FlexboxLayout UI params (alignContent, alignItems, flexWrap, ...) to customize the appearence of the FlexRadioGroup and his content.
 

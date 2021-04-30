@@ -4,7 +4,7 @@ android {
     compileSdkVersion compile_sdk_version
 
     defaultConfig {
-        applicationId "com.hopenlib.sample"
+        applicationId "io.github.mrherintsoahasina.flextools.sample"
         minSdkVersion min_sdk_version
         targetSdkVersion compile_sdk_version
         versionCode version_code

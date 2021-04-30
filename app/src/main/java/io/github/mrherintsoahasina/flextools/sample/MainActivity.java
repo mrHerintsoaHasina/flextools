@@ -1,4 +1,4 @@
-package com.hopenlib.sample;
+package io.github.mrherintsoahasina.flextools.sample;
 
 import android.os.Bundle;
 import android.view.Menu;

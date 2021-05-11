@@ -9,7 +9,7 @@
                 android:paddingTop="@dimen/activity_vertical_margin"
                 tools:context="io.github.mrherintsoahasina.flextools.sample.MainActivity">
 
-    <com.hopenlib.flextools.FlexRadioGroup
+    <io.github.mrherintsoahasina.flextools.FlexRadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:alignContent="space_around"
@@ -66,5 +66,5 @@
             android:layout_height="wrap_content"
             android:text="RB 8" />
 
-    </com.hopenlib.flextools.FlexRadioGroup>
+    </io.github.mrherintsoahasina.flextools.FlexRadioGroup>
 </RelativeLayout>

@@ -5,7 +5,7 @@ ext {
     bintrayRepo = 'flextools'
     bintrayName = 'flextools'
 
-    publishedGroupId = 'com.hopenlib.library'
+    publishedGroupId = 'io.github.mrherintsoahasina'
     libraryName = 'FlexTools'
     artifact = 'flextools'
 

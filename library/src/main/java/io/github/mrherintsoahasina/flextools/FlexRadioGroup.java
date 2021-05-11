@@ -1,4 +1,4 @@
-package com.hopenlib.flextools;
+package io.github.mrherintsoahasina.flextools;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -14,7 +14,7 @@ import com.google.android.flexbox.FlexboxLayout;
 import androidx.annotation.IdRes;
 
 /**
- * Created by mrhas on 24/05/17.
+ * Created by mrHerintsoaHasina on 24/05/17.
  */
 public class FlexRadioGroup extends FlexboxLayout {
 
@@ -37,7 +37,7 @@ public class FlexRadioGroup extends FlexboxLayout {
 
         // retrieve selected radio button as requested by the user in the
         // XML layout file
-        TypedArray attributes = context.obtainStyledAttributes(attrs, R.styleable.FlexboxLayout);
+        TypedArray attributes = context.obtainStyledAttributes(attrs, R.styleable.FlexRadioGroup);
 
         int value = attributes.getResourceId(R.styleable.FlexRadioGroup_flexCheckedButton, View.NO_ID);
         if (value != View.NO_ID) {
@@ -124,7 +124,7 @@ public class FlexRadioGroup extends FlexboxLayout {
 
     private void setCheckedStateForView(int viewId, boolean checked) {
         View checkedView = findViewById(viewId);
-        if (checkedView != null && checkedView instanceof RadioButton) {
+        if (checkedView instanceof RadioButton) {
             ((RadioButton) checkedView).setChecked(checked);
         }
     }

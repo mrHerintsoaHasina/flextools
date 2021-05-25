@@ -1,29 +1,9 @@
 apply plugin: 'com.android.library'
-apply plugin: "com.github.dcendents.android-maven"
 
 ext {
-    bintrayRepo = 'flextools'
-    bintrayName = 'flextools'
-
-    publishedGroupId = 'io.github.mrherintsoahasina'
-    libraryName = 'FlexTools'
-    artifact = 'flextools'
-
-    libraryDescription = 'Custom view created from FlexBoxLayout are found here'
-
-    siteUrl = 'https://github.com/mrHerintsoaHasina/flextools'
-    gitUrl = 'https://github.com/mrHerintsoaHasina/flextools.git'
-
-    libraryVersion = '1.0.1'
-    allLabels = ['android', 'android-library', 'android-ui']
-
-    developerId = 'mrhas'
-    developerName = 'Hasina R.'
-    developerEmail = 'hasina.anddev@gmail.com'
-
-    licenseName = 'The Apache Software License, Version 2.0'
-    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-    allLicenses = ["Apache-2.0"]
+    PUBLISH_GROUP_ID = 'io.github.mrherintsoahasina'
+    PUBLISH_VERSION = '1.0.1'
+    PUBLISH_ARTIFACT_ID = 'flextools'
 }
 
 android {
@@ -49,7 +29,4 @@ dependencies {
     implementation "androidx.annotation:annotation:$android_annotation_version"
 }
 
-apply from: "../bintrayv1.gradle"
-apply from: "../maven.gradle"
-
-
+apply from: "${rootProject.projectDir}/scripts/publish-module.gradle"

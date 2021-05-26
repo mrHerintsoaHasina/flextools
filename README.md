@@ -5,9 +5,10 @@ An Android Library which uses the FlexboxLayout https://github.com/google/flexbo
 Add to your app `build.gradle` :
 ````
 dependencies {
-    implementation 'io.github.mrherintsoahasina:flextools:1.0.1'
+    implementation 'io.github.mrherintsoahasina:flextools:1.0.3'
 }
 ````
+**Starting from 1.0.3, the groupId is changed to `io.github.mrherintsoahasina` due to migration from JCenter to Maven Central.**
 
 ## Version 1.0.0
 - contains the class FlexRadioGroup which extends the FlexBoxLayout.
